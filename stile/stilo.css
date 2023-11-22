@@ -1,0 +1,144 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  min-height: 100vh;
+  
+}
+
+.itempai {
+  color: white;
+  display: flex;
+  justify-content: end;
+  background-color: #175DA3;
+  height: 50px;
+  align-items: center;
+  margin: 0 0px 0 0px;
+  width: 1500px;
+
+}
+
+.item {
+  background-color: #0B2F52;
+  color: white;
+  height: 50px;
+  width: 150px;
+  
+  text-align: center;
+  line-height: 50px;
+
+}
+
+.text {
+  
+  
+  flex: 1 1 0;
+
+  width: 1000px;
+  color: #1D74CC;
+  margin-top: 40px;
+}
+
+#img {
+  width: 400px;
+  height: 500px;
+}
+
+p {
+  font-size: 1.5em;
+  text-align: center;
+  width: auto;
+  background-color: #0B2F52;
+  color: white;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pé {
+  background-color: #2289EF;
+  color: azure;
+  font-size: 1em;
+  text-align: center;
+}
+
+section.slider {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+.slider-content {
+  width: 400%;
+  height: auto;
+  display: flex;
+}
+
+.slider-content input,
+.imagem,
+.imagem {
+  display: none;
+}
+
+.imagens {
+  width: 25%;
+  height: auto;
+  position: relative;
+  text-align: center;
+}
+
+.imagem img {
+  width: 60%;
+  height: 50%;
+}
+
+.navigation-manual,
+.navigation-auto {
+  position: absolute;
+  width: 100%;
+  margin-top: 39%;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-manual .manual,
+.navigation-auto div {
+  border: 1px solid #0B2F52;
+  padding: 10px;
+  border-radius: 50%;
+
+
+}
+
+.navigation-manual .manual:not(:last-child),
+.navigation-auto div:not(:last-child) {
+  margin-right: 10px;
+}
+
+.navigation-manual .manual:hover {
+  background-color: black;
+}
+
+#btn-1:checked~.navigation-auto .auto-btn-1,
+#btn-2:checked~.navigation-auto .auto-btn-2,
+#btn-3:checked~.navigation-auto .auto-btn-3 {
+  background-color: #0B2F52;
+}
+
+
+
+
+#btn-1:checked~.imagem-1 {
+  margin-left: 0%;
+}
+
+#btn-2:checked~.imagem {
+  margin-left: -50%;
+}
+
+#btn-3:checked~.imagem {
+  margin-left: -50%;
+}
