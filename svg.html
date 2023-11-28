@@ -23,31 +23,39 @@
     </div>
   </header>
 
-  <section class="slider">
+  <section id="list">
 
-    <div class="slider-content">
-      <input type="radio" name="rd" id="btn-1">
-      <input type="radio" name="rd" id="btn-2">
-      <input type="radio" name="rd" id="btn-3">
 
-      <div class="navigation-auto">
-        <div class="auto-btn-1"></div>
-        <div class="auto-btn-2"></div>
-        <div class="auto-btn-3"></div>
+
+    <div class="lista-ordenada">
+
+      <span id="text-span"><strong>Todos os produtos</strong></span>
+      <div>
+        <strong>Ordenar por</strong>: <select name="lista-ordenada" id="produtos-list">
+          <option value="">
+            Relevância
+          </option>
+          <option value="">
+            Menor preço
+          </option>
+          <option value="">
+            Maior preço
+          </option>
+        </select>
       </div>
-      <div class="navigation-manual">
-        <label for="btn-1" class="manual"></label>
-        <label for="btn-2" class="manual"></label>
-        <label for="btn-3" class="manual"></label>
-      </div>
-      <div class="imagens">
-        <img src="" alt="logo-site" class="imagem-1">
-        <img src="IMG/cinto.jpeg" alt="" class="imagem">
-        <img src="IMG/relogio.jpeg" alt="" class="imagem">
-      </div>
+
+    </div>
+
+    <div class="lista-produtos">
+
+      <img src="IMG/relogio.jpeg" alt="" class="foto-produto">
+      <img src="IMG/cinto.jpeg" alt="" class="foto-produto">
+      <img src="IMG/cinto2.jpeg" alt="" class="foto-produto">
+      <img src="" alt="foto-C" class="foto-produto">
     </div>
 
   </section>
+
 
   <main class="text">
 
@@ -70,9 +78,6 @@
 
   </footer>
   <script src="slider.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
 </body>
 
 </html>

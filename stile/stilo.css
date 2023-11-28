@@ -6,7 +6,7 @@
   min-width: 100%;
   padding-left: 0px;
   padding-right: 0px;
-  
+  background-image: linear-gradient(to top, #DFFBFC, #9BC0D9);
 }
 
 .itempai {
@@ -17,11 +17,6 @@
   height: 50px;
   border-radius: 5px;
   box-shadow: 1px 2px 3px #092944cb;
-  
- 
-
-  
-  
 
 }
 
@@ -39,7 +34,7 @@
 .text {
 
   flex: 1 1 0;
-  
+  border-radius: 50px;
   color: #1D74CC;
   margin-top: 40px;
 }
@@ -67,83 +62,55 @@ p {
   text-align: center;
 }
 
-section.slider {
-  margin: 0 auto;
-  width: 100%;
-  height: auto;
-  padding: 0;
-  overflow: hidden;
-
+.lista-produtos {
+  color: black;
 }
 
-.slider-content {
-  width: 400%;
-  height: auto;
+#list {
+
+  background-color: white;
+
+  border: 2px solid #175da386;
+  margin-top: 5px;
+  height: 300px;
+  box-shadow: 1px 1px 5px #023e73cc;
+}
+
+.lista-produtos {
   display: flex;
+
+  margin-top: 20px;
+  margin-left: 5px;
+
+  width: 1050px;
 }
 
-.slider-content input,
-.imagem,
-.imagem {
-  display: none;
-}
-
-.imagens {
-  width: 25%;
-  height: auto;
-  position: relative;
-  text-align: center;
-}
-
-.imagem img {
-  width: 60%;
-  height: 50%;
-}
-
-.navigation-manual,
-.navigation-auto {
-  position: absolute;
-  width: 100%;
-  margin-top: 39%;
+.lista-ordenada {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  margin-top: 3px;
+  margin-right: 5px;
+  margin-left: 5px;
+  background-color: rgba(248, 246, 246, 0.911);
+  border-radius: 5px;
+  height: 50px;
+  padding: 5px;
 }
 
-.navigation-manual .manual,
-.navigation-auto div {
-  border: 1px solid #0B2F52;
-  padding: 10px;
-  border-radius: 50%;
+#produtos-list {
+  margin-top: 8px;
+  border: white;
+  width: 100px;
+}
 
+.foto-produto {
+  margin-right: 5px;
+
+  width: 200px;
+  height: 200px;
 
 }
 
-.navigation-manual .manual:not(:last-child),
-.navigation-auto div:not(:last-child) {
-  margin-right: 10px;
-}
-
-.navigation-manual .manual:hover {
-  background-color: black;
-}
-
-#btn-1:checked~.navigation-auto .auto-btn-1,
-#btn-2:checked~.navigation-auto .auto-btn-2,
-#btn-3:checked~.navigation-auto .auto-btn-3 {
-  background-color: #0B2F52;
-}
-
-
-
-
-#btn-1:checked~.imagem-1 {
-  margin-left: 0%;
-}
-
-#btn-2:checked~.imagem {
-  margin-left: -50%;
-}
-
-#btn-3:checked~.imagem {
-  margin-left: -50%;
+#text-span {
+  font-size: 2em;
 }
